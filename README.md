@@ -1,0 +1,1 @@
+*EmaWeather Sample project with Vite React and Python FastAPI

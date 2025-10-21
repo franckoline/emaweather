@@ -1,0 +1,21 @@
+uvicorn
+fastapi
+python-multipart
+python-dotenv
+requests
+dotenv
+
+frontend
+node
+node -v
+nvm -v
+npm create vite@latest frontend -- --template react
+cd frontend
+npm install axios
+
+npm install -D tailwindcss postcss autoprefixer or
+npm install -D @tailwindcss/postcss
+npx tailwindcss init -p or
+npx tailwindcss-cli@latest init -p
+
+
