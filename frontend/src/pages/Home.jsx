@@ -84,8 +84,7 @@ export default function Home() {
         )}
       </div>
 
-      <p className="mt-8 text-sm text-gray-500">Powered by Samuel Gregory</p>
+      {/* <p className="mt-8 text-sm text-gray-500">Powered by Samuel Gregory</p> */}
     </div>
-    
   );
 }

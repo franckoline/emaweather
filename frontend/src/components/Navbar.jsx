@@ -2,10 +2,10 @@ import { Link, NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className="bg-sky-600 text-white px-6 py-3 shadow-md">
+    <nav className="bg-sky-600 text-white px-6 py-6 shadow-md">
       <div className="container mx-auto flex items-center justify-between">
         <Link to="/" className="text-xl font-bold">🌤️ WeatherApp</Link>
-        <div className="space-x-6">
+        <div className="space-x-10">
           <NavLink
             to="/"
             className={({ isActive }) =>
@@ -28,7 +28,15 @@ export default function Navbar() {
               isActive ? "font-semibold underline" : "hover:underline"
             }
           >
-            Contact
+            Contact Us
+          </NavLink>
+          <NavLink
+            to="/projects"
+            className={({ isActive }) =>
+              isActive ? "font-semibold underline" : "hover:underline"
+            }
+          >
+            Projects
           </NavLink>
         </div>
       </div>

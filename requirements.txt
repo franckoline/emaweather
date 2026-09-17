@@ -20,5 +20,7 @@ npx tailwindcss-cli@latest init -p
 
 # router for navigation
 npm install react-router-dom
+npm install framer-motion
+
 
 
